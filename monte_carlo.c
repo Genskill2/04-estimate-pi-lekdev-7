@@ -56,7 +56,7 @@ int count=0;
      if( z <= 1 ) count++;
  }
 
- pi = count / n * 4;
+ pi = (float)count / n * 4;
 
  return (float)pi/n;
 }
